@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipez"
+	group: "09BCC84318EF0F4A"
+	icon: "gtceu:tin_normal_item_pipe"
+	id: "5CB5377EEF519CFA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["495EC5EA240159A9"]
+			hide_until_deps_complete: true
+			id: "6D05E6DC441E77C2"
+			size: 2.0d
+			tasks: [{
+				id: "7710CBBE10417117"
+				type: "checkmark"
+			}]
+			title: "Pipes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D05E6DC441E77C2"]
+			id: "29B0C15EAD1C0094"
+			tasks: [{
+				id: "6196B1EB8B856259"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D05E6DC441E77C2"]
+			id: "57BEC1F7084B3D0A"
+			tasks: [{
+				id: "298D83F592BD7AA9"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"29B0C15EAD1C0094"
+				"57BEC1F7084B3D0A"
+			]
+			id: "6D5A403D519C4669"
+			tasks: [{
+				id: "0EDFF63025A80658"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D05E6DC441E77C2"]
+			id: "523451BD76E68610"
+			size: 1.5d
+			tasks: [{
+				id: "46F415BF55B893CC"
+				item: "gtceu:copper_small_fluid_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D05E6DC441E77C2"]
+			id: "67472CF5F3FB1B1A"
+			size: 1.5d
+			tasks: [{
+				id: "706968951FC2BB85"
+				item: "gtceu:tin_small_item_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67472CF5F3FB1B1A"]
+			id: "12B1E934CE76EE13"
+			tasks: [{
+				id: "24DCD58D694F5F73"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:conveyor_modules"
+					}
+				}
+				title: "Any #gtceu:conveyor_modules"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67472CF5F3FB1B1A"]
+			id: "2AB1AC9754F34F11"
+			tasks: [{
+				id: "6ED58834DEB872AE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:robot_arms"
+					}
+				}
+				title: "Any #gtceu:robot_arms"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["523451BD76E68610"]
+			id: "25FE66F15AB911D7"
+			tasks: [{
+				id: "28A2EAE6784AEB50"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:electric_pumps"
+					}
+				}
+				title: "Any #gtceu:electric_pumps"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["523451BD76E68610"]
+			id: "0749D3403226158A"
+			tasks: [{
+				id: "3188AFB1B46886A1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:fluid_regulators"
+					}
+				}
+				title: "Any #gtceu:fluid_regulators"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67472CF5F3FB1B1A"]
+			id: "18CFA0EA917D5784"
+			tasks: [{
+				id: "0C0392AD584285E0"
+				item: "gtceu:tin_small_restrictive_item_pipe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["523451BD76E68610"]
+			id: "1796317A4FEFC77A"
+			tasks: [
+				{
+					id: "568E6BD696D70360"
+					item: "gtceu:copper_quadruple_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1F18EA539247DFD0"
+					item: "gtceu:copper_nonuple_fluid_pipe"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["435EAC86F742B19C"]
+			id: "457BE3BA3F006D49"
+			tasks: [{
+				id: "312622B9D6C7E5BD"
+				item: "gtceu:copper_large_fluid_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["457BE3BA3F006D49"]
+			id: "672C242CE82DBED2"
+			tasks: [{
+				id: "2A2F61DC163643DC"
+				item: "gtceu:copper_huge_fluid_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["523451BD76E68610"]
+			id: "435EAC86F742B19C"
+			tasks: [{
+				id: "40008B02C79993ED"
+				item: "gtceu:copper_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67472CF5F3FB1B1A"]
+			id: "554643C72611743B"
+			tasks: [{
+				id: "51C6A42B71035A90"
+				item: "gtceu:tin_normal_item_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["554643C72611743B"]
+			id: "1DB78B0016569AF0"
+			tasks: [{
+				id: "52F327EB2BFE1A6A"
+				item: "gtceu:tin_large_item_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1DB78B0016569AF0"]
+			id: "12B0E970A39CBE16"
+			tasks: [{
+				id: "7811057CE145690B"
+				item: "gtceu:tin_huge_item_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"12B1E934CE76EE13"
+				"2AB1AC9754F34F11"
+			]
+			dependency_requirement: "one_completed"
+			id: "46114895458ECCEC"
+			tasks: [
+				{
+					id: "1BA69A42915C975F"
+					item: "gtceu:item_filter"
+					type: "item"
+				}
+				{
+					id: "441A1B2D7D9DE831"
+					item: "gtceu:item_tag_filter"
+					type: "item"
+				}
+				{
+					id: "1661EE209C2E7EFA"
+					item: "gtceu:item_smart_filter"
+					type: "item"
+				}
+			]
+			title: "Item Filters"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"25FE66F15AB911D7"
+				"0749D3403226158A"
+			]
+			dependency_requirement: "one_completed"
+			id: "7265512CB6CEBA2A"
+			tasks: [
+				{
+					id: "3C79B477AD920442"
+					item: "gtceu:fluid_filter"
+					type: "item"
+				}
+				{
+					id: "741E3F2D15E8FAF8"
+					item: "gtceu:fluid_tag_filter"
+					type: "item"
+				}
+			]
+			title: "Fluid Filters"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"29B0C15EAD1C0094"
+				"57BEC1F7084B3D0A"
+			]
+			dependency_requirement: "one_completed"
+			id: "7A0C7DC4CADBB6E7"
+			tasks: [
+				{
+					id: "416D5E7B88C8D69D"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "66F3FCC402F0DD1A"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+				{
+					id: "5D947314E3E68557"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+				{
+					id: "1A65B5414CEC8695"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
+			title: "Pipez Upgrades"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Pipes"
+}

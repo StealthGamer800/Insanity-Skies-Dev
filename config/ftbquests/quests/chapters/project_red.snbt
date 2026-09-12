@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "project_red"
+	group: ""
+	icon: "projectred_transmission:red_alloy_wire"
+	id: "18EFA509AAB542F4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F44AF3EB49C55BD"]
+			hide_until_deps_complete: true
+			id: "35F4A95296C3ADFD"
+			tasks: [{
+				id: "66D368BD2F428646"
+				item: "projectred_core:plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35F4A95296C3ADFD"]
+			id: "055A172372F06765"
+			tasks: [{
+				id: "5697E1FF74C5049F"
+				title: "TBD"
+				type: "checkmark"
+			}]
+			title: "TBD"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Project Red"
+}

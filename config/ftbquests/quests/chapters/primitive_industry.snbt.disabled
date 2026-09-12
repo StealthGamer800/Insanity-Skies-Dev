@@ -8,14 +8,14 @@
 	id: "185530D679B70F64"
 	order_index: 2
 	quest_links: [{
-		id: "7E6E827FBCF37985"
-		linked_quest: "684FAA520167CC51"
-		x: -20.0d
-		y: -0.5d
+		id: "0C093E07773C2AF0"
+		linked_quest: "50F2743FA699173A"
+		x: -11.5d
+		y: -5.0d
 	}]
 	quests: [
 		{
-			dependencies: ["501B8947707A1B88"]
+			dependencies: ["50F2743FA699173A"]
 			id: "70A7945B18761012"
 			size: 1.0d
 			tasks: [{
@@ -23,7 +23,7 @@
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -13.5d
 			y: -5.0d
 		}
 		{
@@ -61,6 +61,21 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["684FAA520167CC51"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "4AAF919793BA49F1"
+			size: 1.5d
+			tasks: [{
+				id: "39B770A79FC07059"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			title: "Tom's Storage"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
 			dependencies: [
 				"3A3BD0ECA7FC8D38"
 				"0D18A28F0FF10EEA"
@@ -77,7 +92,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2F07AC2F15925244"]
+			dependencies: [
+				"684FAA520167CC51"
+				"2F07AC2F15925244"
+			]
 			id: "2A7C8C43D6D58B93"
 			shape: "gear"
 			size: 1.0d
@@ -121,6 +139,7 @@
 				"0C3E73B7FB53E836"
 				"6C9CBCF4C1B1495E"
 				"5646A9F01BD60975"
+				"59A805C314717BA0"
 			]
 			hide_dependent_lines: true
 			id: "410385DA7FBBD2FA"
@@ -162,7 +181,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["501B8947707A1B88"]
+			dependencies: ["50F2743FA699173A"]
 			description: ["1 may be missing hmmm...."]
 			hide_dependent_lines: true
 			id: "5646A9F01BD60975"
@@ -193,7 +212,7 @@
 				}
 			]
 			title: "Low Pressure Steam Machines"
-			x: -18.0d
+			x: -9.5d
 			y: -5.0d
 		}
 		{
@@ -321,6 +340,7 @@
 			dependencies: [
 				"410385DA7FBBD2FA"
 				"40B1212619EC3444"
+				"59A805C314717BA0"
 			]
 			id: "4FB04EF25E12F5FA"
 			optional: true
@@ -366,7 +386,6 @@
 			dependencies: [
 				"5EECCE772767FF9D"
 				"3149BE5A8D986443"
-				"501B8947707A1B88"
 			]
 			id: "5ECB647132181811"
 			size: 1.0d
@@ -375,8 +394,8 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -5.0d
+			x: -11.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -419,8 +438,8 @@
 				item: "gtceu:high_pressure_steam_sifter"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -1.0d
+			x: -11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -434,8 +453,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.0d
+			x: -13.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -450,11 +469,14 @@
 				item: "exnihilosequentia:string_mesh"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.0d
+			x: -11.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["02C057D90BC7F0E1"]
+			dependencies: [
+				"02C057D90BC7F0E1"
+				"26B8FCAD39A84649"
+			]
 			hide_dependency_lines: true
 			id: "2D4A9BB82757960C"
 			size: 1.0d
@@ -463,8 +485,8 @@
 				item: "exnihilosequentia:flint_mesh"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: -11.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -479,8 +501,8 @@
 				item: "exnihilosequentia:iron_mesh"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 5.0d
+			x: -11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["02C057D90BC7F0E1"]
@@ -491,8 +513,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.0d
+			x: -13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["02C057D90BC7F0E1"]
@@ -503,8 +525,8 @@
 				item: "exnihilosequentia:dust"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -1.0d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -518,8 +540,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: -9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -534,8 +556,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 1.0d
+			x: -9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -549,8 +571,8 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 5.0d
+			x: -9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -565,8 +587,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
+			x: -13.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -580,8 +602,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: -13.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["69EEE1EA928D3A75"]
@@ -816,9 +838,9 @@
 		{
 			dependencies: [
 				"19A0099F62CB5FF1"
-				"501B8947707A1B88"
+				"684FAA520167CC51"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "4619505A5DF24551"
 			size: 1.0d
 			tasks: [{
@@ -826,11 +848,14 @@
 				item: "gtceu:steam_kiln"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -13.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["410385DA7FBBD2FA"]
+			dependencies: [
+				"684FAA520167CC51"
+				"410385DA7FBBD2FA"
+			]
 			id: "71A523823C7ED594"
 			size: 1.0d
 			tasks: [
@@ -995,7 +1020,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["63F20D173C5A431F"]
+			dependencies: [
+				"29C78EFA4596B27E"
+				"63F20D173C5A431F"
+			]
 			hide_dependency_lines: true
 			id: "6BF9BA9DD881787D"
 			size: 1.0d
@@ -1094,10 +1122,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"291A793E984F63CC"
-				"501B8947707A1B88"
-			]
+			dependencies: ["291A793E984F63CC"]
 			id: "2553971E9363D952"
 			size: 1.0d
 			tasks: [{
@@ -1105,7 +1130,7 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -9.5d
 			y: -3.0d
 		}
 		{
@@ -1193,6 +1218,21 @@
 			y: 7.0d
 		}
 		{
+			dependencies: [
+				"19EFB33C0B250C49"
+				"4AAF919793BA49F1"
+			]
+			id: "3ED631E50781A07F"
+			size: 1.0d
+			tasks: [{
+				id: "12D3CDDDB1B18DF8"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
 			dependencies: ["301FF7F900A30DC7"]
 			id: "11B71B1B4A0E43A1"
 			size: 1.0d
@@ -1219,6 +1259,21 @@
 			}]
 			x: 2.5d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3ED631E50781A07F"
+				"373CB1CBF01D4B84"
+			]
+			id: "55D3937DAE01FDFC"
+			size: 1.0d
+			tasks: [{
+				id: "7E8EE16C6795FA34"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1318,6 +1373,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["684FAA520167CC51"]
 			id: "43AA7FB2483BE561"
 			shape: "hexagon"
 			size: 1.0d
@@ -1389,28 +1445,6 @@
 			}]
 			x: 2.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["684FAA520167CC51"]
-			id: "501B8947707A1B88"
-			tasks: [{
-				id: "5AFED14B8E02E7C0"
-				item: "gtceu:bronze_brick_casing"
-				type: "item"
-			}]
-			x: -20.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["684FAA520167CC51"]
-			id: "4A68531D41293B09"
-			tasks: [{
-				id: "05F16AB7F4DCA806"
-				item: "kubejs:servo_temp"
-				type: "item"
-			}]
-			x: -20.0d
-			y: 2.0d
 		}
 	]
 	title: "Primitive Industry - WIP"
