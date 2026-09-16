@@ -5,7 +5,7 @@
 	group: "09BCC84318EF0F4A"
 	icon: "ae2:controller"
 	id: "68D584E6019E96FB"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,7 +25,7 @@
 			id: "0AF713282D954EF4"
 			tasks: [{
 				id: "74AAF09F6F1B7DC1"
-				title: "TBD."
+				title: "TBD"
 				type: "checkmark"
 			}]
 			x: 1.5d

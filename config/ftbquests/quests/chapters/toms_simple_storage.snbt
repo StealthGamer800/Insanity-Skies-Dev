@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["0DAFCB5AF948547D"]
-			description: ["This block connects all adjacent inventories into one, acting as a proxy for all"]
+			description: ["This block connects all adjacent inventories into one, acting as a proxy for all."]
 			hide_until_deps_complete: true
 			icon: "toms_storage:ts.inventory_connector"
 			id: "7131DFB3AF238586"
@@ -73,7 +73,7 @@
 				item: "toms_storage:ts.wireless_terminal"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -85,7 +85,7 @@
 				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -102,6 +102,7 @@
 		}
 		{
 			dependencies: ["7131DFB3AF238586"]
+			description: ["Connects inventories over long distances."]
 			id: "707A87A984D45D35"
 			tasks: [{
 				id: "6ABBD9883D89DB79"
@@ -159,20 +160,26 @@
 		}
 		{
 			dependencies: ["707A87A984D45D35"]
+			description: ["Import or Export from your network."]
 			id: "3CFCB7A2930A90EA"
-			tasks: [
-				{
-					id: "621B92D8E6D3C5CA"
-					item: "toms_storage:ts.inventory_hopper_basic"
-					type: "item"
-				}
-				{
-					id: "4B3723E8107BB53F"
-					item: "toms_storage:ts.level_emitter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "621B92D8E6D3C5CA"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
 			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["707A87A984D45D35"]
+			description: ["Emits a restone signal based on inventory contents."]
+			id: "5C8C545BEB4B1966"
+			tasks: [{
+				id: "67C339EC2CB8DC24"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			x: -1.0d
 			y: -1.0d
 		}
 	]

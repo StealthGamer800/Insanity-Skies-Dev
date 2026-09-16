@@ -1,5 +1,4 @@
 {
-	autofocus_id: "4155BBBAD6D1BBD7"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_high_logistics"
@@ -124,9 +123,8 @@
 		{
 			dependencies: ["18BAF1CF134CAC95"]
 			description: [
-				"When the Packager and Fluid Packager are connected to their respective storages and given a redstone signal, they will take the contents of the storage and put them inside of a package. "
+				"When the Packager and Fluid Packager are connected to their respective storages and given a redstone signal, they will take the contents of the storage and put them inside of a package."
 				""
-				"{@pagebreak}"
 				"&lGiving packages addresses:"
 				""
 				"When a sign is placed &lON&r the Packager, any packages coming from the Packager will have that address attached to them. When sent onto a chain via a Frogport, the package will go into Frogport on the network with a matching address."
@@ -150,7 +148,13 @@
 		}
 		{
 			dependencies: ["18BAF1CF134CAC95"]
-			description: ["When a Frogport is linked to a Chain Conveyor by right clicking and given an address name, it has the ability to send packages onto the chain. When a package with a different address name from the Frogport on it enters the Frogport (from any side), it will be sent to the chain. If the package has no valid address, or more simply the given address on the package doesn't sucessfully match any other Frogport on the network, it will loop on a Conveyor until provided a valid address."]
+			description: [
+				"When a Frogport is linked to a Chain Conveyor, done by right clicking, and given an address name, it has the ability to send packages onto the chain. "
+				""
+				"When a package with a different address name from the Frogport on it enters the Frogport (from any side), it will be sent to the chain. "
+				""
+				"If the package has no valid address, or more simply, the given address on the package doesn't sucessfully match any other Frogport on the network, it will loop on a Conveyor until provided a valid address."
+			]
 			id: "74DA13F7FC41FF49"
 			tasks: [
 				{
@@ -201,22 +205,12 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5C59E1B1F75EEF08"]
-			icon: "extra_gauges:logic_gauge"
-			id: "5F1674328A4ABF67"
-			size: 1.5d
-			tasks: [{
-				id: "48A931B785AB5B42"
-				title: "Logic and Maths"
-				type: "checkmark"
-			}]
-			title: "Logic and Maths"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["18BAF1CF134CAC95"]
-			description: ["The Stock Link gives packaging variants network access. Right click on any other network connected block then place the Stock Link on the packager."]
+			description: [
+				"The Stock Link gives packaging variants network access. "
+				""
+				"Right click on any other network connected block then place the Stock Link on the packager."
+			]
 			id: "050B95B74917DF87"
 			tasks: [{
 				id: "1C73352F50FF6CED"
@@ -237,61 +231,6 @@
 			}]
 			x: -2.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["5F1674328A4ABF67"]
-			id: "108BD5F85238EEC3"
-			tasks: [{
-				id: "3EB43226E3D06BC7"
-				item: "extra_gauges:counter_gauge"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5F1674328A4ABF67"]
-			id: "7D54A8607DB21CB2"
-			tasks: [{
-				id: "390CF89E66A3169B"
-				item: "extra_gauges:integer_gauge"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5F1674328A4ABF67"]
-			id: "41D22300F551EB8F"
-			tasks: [{
-				id: "5A5C7CF4E3C1B0B2"
-				item: "extra_gauges:logic_gauge"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5F1674328A4ABF67"]
-			id: "1792F7A38E2B02EE"
-			tasks: [{
-				id: "4C82E978A03BA0D8"
-				item: "extra_gauges:string_gauge"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5F1674328A4ABF67"]
-			id: "29D527A49190438E"
-			tasks: [{
-				id: "741A2939B33EAB61"
-				item: "extra_gauges:comparator_gauge"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["18BAF1CF134CAC95"]
