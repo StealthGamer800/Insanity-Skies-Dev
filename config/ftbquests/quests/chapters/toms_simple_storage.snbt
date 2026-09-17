@@ -114,6 +114,7 @@
 		}
 		{
 			dependencies: ["707A87A984D45D35"]
+			description: [""]
 			id: "16E9A75C26A35DC2"
 			tasks: [{
 				id: "62BFEDA16B2E47E7"
@@ -136,6 +137,13 @@
 		}
 		{
 			dependencies: ["09F1DD5E2EC09F11"]
+			description: [
+				"&lItem Filter:&r A versatile Filter that lets you filter Item, NBT, and Durability."
+				""
+				"&lItem Tag Filter:&r A filter that lets you use tags to filter specific items or item groups."
+				""
+				"&lPolymorphic Item Filter:&r Only allows items that are already in the storage medium."
+			]
 			id: "16DE96EFBCF58701"
 			tasks: [
 				{
@@ -144,13 +152,13 @@
 					type: "item"
 				}
 				{
-					id: "0837986D5D673638"
-					item: "toms_storage:ts.polymorphic_item_filter"
+					id: "1CD353E808885C0A"
+					item: "toms_storage:ts.tag_item_filter"
 					type: "item"
 				}
 				{
-					id: "1CD353E808885C0A"
-					item: "toms_storage:ts.tag_item_filter"
+					id: "7549F165796DA600"
+					item: "toms_storage:ts.polymorphic_item_filter"
 					type: "item"
 				}
 			]

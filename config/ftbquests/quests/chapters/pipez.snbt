@@ -109,7 +109,7 @@
 		{
 			dependencies: ["67472CF5F3FB1B1A"]
 			description: [
-				"Covers are things you can place on the side of GT blocks to change the way the block pushes and pulls with the things around it."
+				"Covers are things you can place on the side of GT blocks to change the way the block pushes and pulls with the items around it."
 				""
 				"The purpose of the conveyors is to push items from GT blocks, whether it be into a storage medium, or a pipe."
 			]
@@ -154,6 +154,11 @@
 		}
 		{
 			dependencies: ["523451BD76E68610"]
+			description: [
+				"Covers are things you can place on the side of GT blocks to change the way the block pushes and pulls with the fluids around it."
+				""
+				"The purpose of the pumps is to push fluids from GT blocks, whether it be into a storage medium, or a pipe."
+			]
 			id: "25FE66F15AB911D7"
 			tasks: [{
 				id: "28A2EAE6784AEB50"
@@ -172,6 +177,7 @@
 		}
 		{
 			dependencies: ["523451BD76E68610"]
+			description: ["Limits the throughput of the pipe."]
 			id: "0749D3403226158A"
 			tasks: [{
 				id: "3188AFB1B46886A1"
@@ -202,6 +208,7 @@
 		}
 		{
 			dependencies: ["523451BD76E68610"]
+			description: ["Small pipe with 4 seperate channels meaning you can have 4 unique fluids moving through the same block."]
 			id: "1796317A4FEFC77A"
 			tasks: [
 				{
@@ -220,6 +227,7 @@
 		}
 		{
 			dependencies: ["435EAC86F742B19C"]
+			description: ["Large fluid pipes are a size bigger than a normal fluid pipe and have six times the throughput of a small fluid pipe."]
 			id: "457BE3BA3F006D49"
 			tasks: [{
 				id: "312622B9D6C7E5BD"
@@ -231,6 +239,7 @@
 		}
 		{
 			dependencies: ["457BE3BA3F006D49"]
+			description: ["Huge fluid pipes are the biggest fluid pipes available and have twelve times the throughput of a small fluid pipe."]
 			id: "672C242CE82DBED2"
 			tasks: [{
 				id: "2A2F61DC163643DC"
@@ -242,6 +251,7 @@
 		}
 		{
 			dependencies: ["523451BD76E68610"]
+			description: ["Normal Fluid pipes are a size bigger than small Fluid pipes and come with triple the throughput."]
 			id: "435EAC86F742B19C"
 			tasks: [{
 				id: "40008B02C79993ED"
@@ -265,7 +275,7 @@
 		}
 		{
 			dependencies: ["554643C72611743B"]
-			description: ["Large item pipes are a size bigger than a normal tin pipe and have four times the throughput of a small item pipe"]
+			description: ["Large item pipes are a size bigger than a normal item pipe and have four times the throughput of a small item pipe."]
 			id: "1DB78B0016569AF0"
 			tasks: [{
 				id: "52F327EB2BFE1A6A"
@@ -293,6 +303,13 @@
 				"2AB1AC9754F34F11"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&lItem Filter:&r A versatile Filter that lets you filter Item, NBT, and Durability."
+				""
+				"&lItem Tag Filter:&r A filter that lets you use tags and logic to filter specific items or item groups."
+				""
+				"&lSmart Item Filter:&r A filter that lets you sort by machine."
+			]
 			id: "46114895458ECCEC"
 			tasks: [
 				{
@@ -321,6 +338,11 @@
 				"0749D3403226158A"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&lItem Filter:&r A versatile Filter that lets you filter by Fluid and or NBT."
+				""
+				"&lItem Tag Filter:&r A filter that lets you use tags and logic to filter specific fluids or fluid groups."
+			]
 			id: "7265512CB6CEBA2A"
 			tasks: [
 				{
@@ -399,6 +421,7 @@
 				"523451BD76E68610"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Screwdrivers allow you to edit the properties of covers for GregTech pipes."]
 			hide_dependency_lines: true
 			id: "72876F48A3677533"
 			tasks: [{
@@ -446,6 +469,7 @@
 		}
 		{
 			dependencies: ["523451BD76E68610"]
+			description: ["Tiny fluid pipes are cheaper alternatives to small fluid pipes though they come with half the throughput."]
 			id: "5711D7F57A4339B8"
 			tasks: [{
 				id: "79075A0C09330E55"
@@ -470,17 +494,6 @@
 			}]
 			x: -4.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["523451BD76E68610"]
-			id: "1020269F3486D728"
-			tasks: [{
-				id: "270E2EFB434AF6A2"
-				title: "Temperature"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 0.0d
 		}
 	]
 	title: "Pipes"

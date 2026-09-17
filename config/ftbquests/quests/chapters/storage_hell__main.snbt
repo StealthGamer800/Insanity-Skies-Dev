@@ -26,12 +26,6 @@
 			x: -1.5d
 			y: -3.0d
 		}
-		{
-			id: "4D59EB76B0726180"
-			linked_quest: "34A1AE5AE0E479D7"
-			x: -1.5d
-			y: 3.0d
-		}
 	]
 	quests: [
 		{
@@ -127,8 +121,7 @@
 		{
 			dependencies: [
 				"1339079FEC976B91"
-				"1E818A6929B6C982"
-				"34A1AE5AE0E479D7"
+				"75B0D3216867C68C"
 			]
 			id: "495EC5EA240159A9"
 			subtitle: "GT item and fluid routing is for the strong"
@@ -165,7 +158,7 @@
 		{
 			dependencies: ["278AB32EECE9FA5F"]
 			id: "265025566B480345"
-			subtitle: "Sophisticated backpacks? Never heard of it"
+			subtitle: "Smallest backpack in the pack"
 			tasks: [{
 				id: "7F7E3F49D7BB4EFD"
 				item: "simplybackpacks:commonbackpack"
@@ -178,7 +171,7 @@
 			dependencies: ["278AB32EECE9FA5F"]
 			icon: "projectred_transmission:red_alloy_wire"
 			id: "0F44AF3EB49C55BD"
-			subtitle: "Redstone on steroids"
+			subtitle: "Redstone with actual logic components"
 			tasks: [{
 				id: "6867548203C70C25"
 				item: "projectred_core:plate"
@@ -281,7 +274,7 @@
 		{
 			dependencies: ["265025566B480345"]
 			id: "4BC73A2B3A795355"
-			subtitle: "You know it's better because it's yellow"
+			subtitle: "Common backpack but it's uncommon"
 			tasks: [{
 				id: "137DD4F4D8A1CD3F"
 				item: "simplybackpacks:uncommonbackpack"
@@ -293,7 +286,7 @@
 		{
 			dependencies: ["4BC73A2B3A795355"]
 			id: "05D99A120BBE1639"
-			subtitle: "Blue is probably the best color, unlike this backpack"
+			subtitle: "Rare mean it's the rarest right?!"
 			tasks: [{
 				id: "01EDF03C5CA56773"
 				item: "simplybackpacks:rarebackpack"
@@ -304,8 +297,9 @@
 		}
 		{
 			dependencies: ["109FC1579CF55248"]
+			description: ["Travel Staffs let you teleport to pre-existing Travel Anchors."]
 			id: "4ED7CB5C41CAFD5E"
-			subtitle: "No, EnderIO is NOT in this modpack"
+			subtitle: "Twavel shtick"
 			tasks: [{
 				id: "1E84DA5294C8D3AD"
 				item: "travelanchors:travel_staff"
@@ -316,8 +310,9 @@
 		}
 		{
 			dependencies: ["05D99A120BBE1639"]
+			description: [""]
 			id: "56022D2F92B10DA9"
-			subtitle: "You will NOT be getting this for a while"
+			subtitle: "&l&b&kA&r&l&dEPIC&r&l&b&kA&r"
 			tasks: [{
 				id: "49DCED4978F3DF55"
 				item: "simplybackpacks:epicbackpack"
@@ -329,7 +324,7 @@
 		{
 			dependencies: ["56022D2F92B10DA9"]
 			id: "03C1B04C93E7A177"
-			subtitle: "Big boy backpack :D"
+			subtitle: "Biggest backpack in the pack :D"
 			tasks: [{
 				id: "05BDDAEBB92317A5"
 				item: "simplybackpacks:ultimatebackpack"
@@ -404,6 +399,16 @@
 			}]
 			x: 3.0d
 			y: 3.5d
+		}
+		{
+			id: "75B0D3216867C68C"
+			tasks: [{
+				id: "1D92A789CCC1ED0C"
+				item: "gtceu:tin_normal_item_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
 		}
 	]
 	title: "QoL"
