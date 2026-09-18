@@ -65,7 +65,7 @@
 			description: [""]
 			hide_dependency_lines: true
 			id: "4AAF919793BA49F1"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "39B770A79FC07059"
 				item: "toms_storage:ts.trim"
@@ -1010,7 +1010,7 @@
 			]
 			hide_dependency_lines: true
 			id: "0EB7B1893BDE32A3"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "074734D6F4DC9465"
 				item: "modularrouters:modular_router"
@@ -1208,6 +1208,7 @@
 				"3AE5C6DB766D52B9"
 			]
 			id: "2C7CE8FB665CD9D9"
+			size: 1.5d
 			tasks: [{
 				id: "56DE831B7D00B30C"
 				item: "create:stock_link"

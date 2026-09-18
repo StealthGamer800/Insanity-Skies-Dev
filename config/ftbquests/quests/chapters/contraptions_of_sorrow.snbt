@@ -7,9 +7,8 @@
 	id: "30D09BF878B9032F"
 	order_index: 1
 	quest_links: [{
-		id: "5AAADDE502063B33"
+		id: "14CE04831D5EFED0"
 		linked_quest: "1472BFF306FEA342"
-		shape: "gear"
 		x: -14.0d
 		y: -12.5d
 	}]
