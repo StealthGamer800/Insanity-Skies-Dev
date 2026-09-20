@@ -693,12 +693,13 @@ ServerEvents.recipes((event) => {
         .id('insanity_skies:shaped/composter');
 
     event
-        .shaped(Item.of('minecraft:campfire', '{BlockStateTag:{lit:"false"}}'), [
+        .shaped('minecraft:campfire', [
             'STS', 
-            'TST', 
+            'TBT', 
             'LLL'
         ], {
             T: '#balm:wooden_rods',
+            B: 'kubejs:bark',
             S: 'kubejs:straw',
             L: '#minecraft:logs',
         })

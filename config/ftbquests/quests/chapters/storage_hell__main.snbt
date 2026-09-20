@@ -134,6 +134,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["0E860293F503DA2E"]
 			id: "5C1C551A7C14CC4B"
 			size: 1.0d
 			tasks: [{
@@ -145,6 +146,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["0E860293F503DA2E"]
 			id: "7C21159970CD17F6"
 			size: 1.0d
 			tasks: [{
@@ -156,7 +158,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["278AB32EECE9FA5F"]
+			dependencies: [
+				"278AB32EECE9FA5F"
+				"0E860293F503DA2E"
+			]
+			hide_until_deps_complete: true
 			id: "265025566B480345"
 			subtitle: "Smallest backpack in the pack"
 			tasks: [{
@@ -168,7 +174,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["278AB32EECE9FA5F"]
+			dependencies: [
+				"278AB32EECE9FA5F"
+				"0E860293F503DA2E"
+			]
+			hide_until_deps_complete: true
 			icon: "projectred_transmission:red_alloy_wire"
 			id: "0F44AF3EB49C55BD"
 			subtitle: "Redstone with actual logic components"
@@ -214,7 +224,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["278AB32EECE9FA5F"]
+			dependencies: [
+				"278AB32EECE9FA5F"
+				"0E860293F503DA2E"
+			]
+			hide_until_deps_complete: true
 			id: "25CDEFF7D3E8D86B"
 			subtitle: "God, are these helpful"
 			tasks: [
@@ -370,7 +384,11 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["278AB32EECE9FA5F"]
+			dependencies: [
+				"278AB32EECE9FA5F"
+				"0E860293F503DA2E"
+			]
+			hide_until_deps_complete: true
 			id: "21AF718D707D245A"
 			subtitle: "You believe you can fly"
 			tasks: [{
@@ -401,6 +419,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["224916FFC857C099"]
 			id: "75B0D3216867C68C"
 			tasks: [{
 				id: "1D92A789CCC1ED0C"
@@ -409,6 +428,18 @@
 			}]
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0E860293F503DA2E"
+			invisible: true
+			tasks: [{
+				id: "7FA411F07E8B42CE"
+				title: "Locked"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "QoL"

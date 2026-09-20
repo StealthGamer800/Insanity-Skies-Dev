@@ -114,7 +114,7 @@
 		}
 		{
 			dependencies: ["707A87A984D45D35"]
-			description: [""]
+			description: ["Allows you to see connected inventories and modify them."]
 			id: "16E9A75C26A35DC2"
 			tasks: [{
 				id: "62BFEDA16B2E47E7"
@@ -126,6 +126,7 @@
 		}
 		{
 			dependencies: ["16E9A75C26A35DC2"]
+			description: ["Functionally the same as standard Inventory Cable Connector but can be filtered."]
 			id: "09F1DD5E2EC09F11"
 			tasks: [{
 				id: "629F4B367E065298"
